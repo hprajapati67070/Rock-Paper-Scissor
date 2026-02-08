@@ -1,7 +1,7 @@
 //this website is not for all display sizes : non-adaptive 
 // i tried my best to document this code. spend time to understand variables
 
-
+console.log("I intentionally kept the console log statements");
 let options = ["stone", "paper", "scissor"];         //computer choice selection logic
 
 let choose  =  () => {
@@ -90,4 +90,5 @@ let update = () => {
         id.innerText = "Even Stevens!"
     }
 }
+
 
