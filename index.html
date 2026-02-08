@@ -1,0 +1,57 @@
+<!DOCTYPE html>         <!-- this website is not for all display sizes : non-adaptive  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone paper scissor</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div id="main">    <!-- body passed to this div -->
+        <div id="title_bar">Rock Paper Scissor</div>  
+
+         <div id="choices_sec" >  <!-- choices are here -->
+
+            <div id="st" class="option" onclick="stone()"></div>
+            <div id="pa" class="option" onclick="paper()"></div>
+            <div id="sc" class="option" onclick="scissor()"></div>
+        </div>
+
+        <div id="score_sec">
+
+            <div id="your" class="score">
+                <p id="yourScore">0</p>
+                <div>You</div>
+            </div>
+
+            <div id="comp" class="score">
+                <p id="compScore">0</p>
+                <div>Comp</div>
+            </div>
+
+        </div>
+
+        <div id="result_sec">   
+
+            <div id="choice_sel_sec">
+                <div id="choice_msg">
+                    <div id="comp_sel" class="res_choices"></div>
+                    <div id="user_sel" class="res_choices"></div>
+                </div>
+            </div>
+
+            <div id="result_msg">choose your option</div>
+
+        </div>
+
+        <div id="footer">&copy; 2026 Harsh Prajapti. All Rights Reserved.</div>
+        
+    </div>
+    
+
+    <!-- script  -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
